@@ -5,5 +5,6 @@ feature 'Enter name' do
     fill_in :player_2_name, with: "Paulo"
     click_button "Submit"
     expect(page).to have_content "Coding Course vs. Paulo"
+    
   end
 end
