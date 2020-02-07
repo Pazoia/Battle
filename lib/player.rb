@@ -3,7 +3,7 @@ class Player
 
   def initialize(name)
     @name = name
-    @hp = 100
+    @hp = 60
   end
 
   def deduct_hp(amount)
